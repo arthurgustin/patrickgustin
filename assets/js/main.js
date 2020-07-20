@@ -41,17 +41,17 @@
 				);
 			});
 
-		// Header.
-			$header.each( function() {
+			// Header.
+			$header.each(function () {
 
-				var t 		= jQuery(this),
-					button 	= t.find('.button');
+				var t = jQuery(this),
+					button = t.find('.button');
 
-				button.click(function(e) {
+				button.click(function (e) {
 
 					t.toggleClass('hide');
 
-					if ( t.hasClass('preview') ) {
+					if (t.hasClass('preview')) {
 						return true;
 					} else {
 						e.preventDefault();
