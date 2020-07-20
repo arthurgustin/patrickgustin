@@ -255,7 +255,11 @@
 		text-align: right;
 	}
 
-	input, select, textarea {
+	.flex-center { display: flex; align-items: center; justify-content: center; flex-direction: column; }
+	h2 span {
+		font-size: 0.4em;
+	}
+input, select, textarea {
 		color: #555;
 	}
 
