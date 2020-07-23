@@ -1535,6 +1535,10 @@ input, select, textarea {
 		font-size: small;
 	}
 
+	div#tabs div{display:none;}
+
+	div#tabs div.tab1:target {display:block;}
+
 
 		@media screen and (max-width: 980px) {
 
